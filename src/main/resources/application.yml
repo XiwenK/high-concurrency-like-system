@@ -1,0 +1,17 @@
+spring:
+  application.name: high-concurrency-like-system
+  mvc:
+    servlet:
+      path: /api
+  profiles:
+    active: dev
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # Only used for dev: print out mysql queries to console
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
