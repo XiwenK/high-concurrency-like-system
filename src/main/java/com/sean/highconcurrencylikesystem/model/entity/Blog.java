@@ -14,7 +14,7 @@ public class Blog {
     @TableId(type = IdType.ASSIGN_ID)
     private Long id;
 
-    private Long userid;
+    private Long userId;
 
     private String title;
 
