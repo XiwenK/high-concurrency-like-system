@@ -5,8 +5,8 @@
 <mapper namespace="com.sean.highconcurrencylikesystem.mapper.UserMapper">
 
     <resultMap id="BaseResultMap" type="com.sean.highconcurrencylikesystem.model.entity.User">
-            <id property="id" column="id" />
-            <result property="username" column="username" />
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
     </resultMap>
 
     <sql id="Base_Column_List">

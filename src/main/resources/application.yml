@@ -5,6 +5,12 @@ spring:
       path: /api
   profiles:
     active: dev
+  data:
+    redis:
+      host: localhost
+      database: 0
+      port: 6379
+      timeout: 5000
 
 mybatis-plus:
   configuration:

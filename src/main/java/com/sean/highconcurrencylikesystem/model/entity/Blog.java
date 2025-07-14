@@ -7,7 +7,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-@TableName(value ="blog")
+@TableName(value = "blog")
 @Data
 public class Blog {
 

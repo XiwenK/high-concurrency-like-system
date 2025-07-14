@@ -5,14 +5,14 @@
 <mapper namespace="com.sean.highconcurrencylikesystem.mapper.BlogMapper">
 
     <resultMap id="BaseResultMap" type="com.sean.highconcurrencylikesystem.model.entity.Blog">
-            <id property="id" column="id" />
-            <result property="userid" column="userId" />
-            <result property="title" column="title" />
-            <result property="coverImg" column="coverImg" />
-            <result property="content" column="content" />
-            <result property="thumbCount" column="thumbCount" />
-            <result property="createTime" column="createTime" />
-            <result property="updateTime" column="updateTime" />
+        <id property="id" column="id"/>
+        <result property="userId" column="userId"/>
+        <result property="title" column="title"/>
+        <result property="coverImg" column="coverImg"/>
+        <result property="content" column="content"/>
+        <result property="thumbCount" column="thumbCount"/>
+        <result property="createTime" column="createTime"/>
+        <result property="updateTime" column="updateTime"/>
     </resultMap>
 
     <sql id="Base_Column_List">

@@ -19,13 +19,15 @@ public class ThumbController {
     private ThumbService thumbService;
 
     @PostMapping("/doThumb")
-    public BaseResponse<Boolean> doThumb(@RequestBody DoThumbRequest doThumbRequest, HttpServletRequest request) {
+    public BaseResponse<Boolean> doThumb(@RequestBody DoThumbRequest doThumbRequest,
+                                         HttpServletRequest request) {
         Boolean success = thumbService.doThumb(doThumbRequest, request);
         return ResultUtils.success(success);
     }
 
     @PostMapping("/undoThumb")
-    public BaseResponse<Boolean> undoThumb(@RequestBody DoThumbRequest doThumbRequest, HttpServletRequest request) {
+    public BaseResponse<Boolean> undoThumb(@RequestBody DoThumbRequest doThumbRequest,
+                                           HttpServletRequest request) {
         Boolean success = thumbService.undoThumb(doThumbRequest, request);
         return ResultUtils.success(success);
     }

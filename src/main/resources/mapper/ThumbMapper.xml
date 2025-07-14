@@ -5,10 +5,10 @@
 <mapper namespace="com.sean.highconcurrencylikesystem.mapper.ThumbMapper">
 
     <resultMap id="BaseResultMap" type="com.sean.highconcurrencylikesystem.model.entity.Thumb">
-            <id property="id" column="id" />
-            <result property="userId" column="userId" />
-            <result property="blogId" column="blogId" />
-            <result property="createTime" column="createTime" />
+        <id property="id" column="id"/>
+        <result property="userId" column="userId"/>
+        <result property="blogId" column="blogId"/>
+        <result property="createTime" column="createTime"/>
     </resultMap>
 
     <sql id="Base_Column_List">

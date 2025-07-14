@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
- * Global Exception Handler
- * - Based on Spring MVC exception handling (Not AOP)
+ * Global Exception Handler - Based on Spring MVC exception handling (Not AOP)
  */
 @RestControllerAdvice
 @Slf4j

@@ -8,7 +8,7 @@ import lombok.Data;
 import java.util.Date;
 
 
-@TableName(value ="thumb")
+@TableName(value = "thumb")
 @Data
 public class Thumb {
 
